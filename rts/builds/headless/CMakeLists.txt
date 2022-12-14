@@ -28,6 +28,9 @@ list(APPEND engineHeadlessLibraries no-sound)
 list(APPEND engineHeadlessLibraries engineSim)
 list(APPEND engineHeadlessLibraries pr-downloader_static)
 
+message("engineCommonLibraries: " ${engineCommonLibraries})
+list(APPEND engineHeadlessLibraries /home/gajop/projects/spring-projects/spring-rust-plugin/target/release/libyour_crate.so)
+
 include_directories(${ENGINE_SRC_ROOT_DIR}/lib/assimp/include)
 include_directories(${ENGINE_SRC_ROOT_DIR}/lib/asio/include)
 include_directories(${ENGINE_SRC_ROOT_DIR}/lib/slimsig/include)

@@ -6,6 +6,7 @@
 #include <atomic>
 #include <string>
 #include <vector>
+#include <memory>
 
 #include "GameController.h"
 #include "GameJobDispatcher.h"
@@ -19,6 +20,7 @@
 class LuaParser;
 class ILoadSaveHandler;
 class ChatMessage;
+class RustSystem;
 
 
 class CGame : public CGameController
@@ -229,6 +231,8 @@ private:
 
 	std::atomic<bool> loadDone = {false};
 	std::atomic<bool> gameOver = {false};
+
+	std::unique_ptr<RustSystem> rustSystem;
 };
 
 

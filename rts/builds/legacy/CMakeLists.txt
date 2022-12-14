@@ -71,6 +71,8 @@ list(APPEND engineLibraries ${SPRING_SIM_LIBRARIES})
 list(APPEND engineLibraries engineSim)
 list(APPEND engineLibraries pr-downloader_static)
 
+list(APPEND engineLibraries /home/gajop/projects/spring-projects/spring-rust-plugin/target/release/libyour_crate.so)
+
 ### Assemble external incude dirs
 list(APPEND engineIncludes ${OPENAL_INCLUDE_DIR})
 list(APPEND engineIncludes ${ENGINE_SRC_ROOT_DIR}/lib/asio/include)
