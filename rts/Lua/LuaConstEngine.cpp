@@ -31,6 +31,9 @@
  * @field reliableLuaMapShaders boolean Whether forward-only Lua map shaders activate without a deferred draw and Spring.SetMapShader program swaps refresh cached uniform locations
  * @field nanoParticleUpdateCallin boolean Whether LuaUI receives batched `NanoParticleUpdate` lifecycle events
  * @field nanoParticlesGL4 boolean Whether the engine has the standalone shader-based nano particle effect (the `NanoParticles*` springsettings)
+ * @field mapDamageRegions boolean Whether synced SetMapDamageRegions can restrict native crater deformation
+ * @field sensorRegions boolean Whether synced SetSensorRegions supports disjoint sensor coverage regions
+ * @field mapRegionViews boolean Whether SetWorldDrawBounds, SetCameraBounds and SetMiniMapView support independent local map-region rectangles
  * @field modelVertexColor boolean Whether glTF `COLOR_0` is loaded into the models VBO (`color`, attribute 15; opaque white when absent)
  */
 
@@ -91,6 +94,9 @@ bool LuaConstEngine::PushEntries(lua_State* L)
 		LuaPushNamedBool(L, "nanoParticleUpdateCallin", true);
 		LuaPushNamedBool(L, "nanoParticlesGL4", true);
 		LuaPushNamedBool(L, "modelVertexColor", true);
+		LuaPushNamedBool(L, "mapRegionViews", true);
+		LuaPushNamedBool(L, "sensorRegions", true);
+		LuaPushNamedBool(L, "mapDamageRegions", true);
 	lua_rawset(L, -3);
 
 	lua_pushliteral(L, "textColorCodes");
