@@ -40,8 +40,7 @@
 // Platform dependent classes
 //////////////////////////////////////////////////////////////////////
 
-#if defined(__APPLE__) || defined(HEADLESS)
-class HardwareCursorApple: public IHardwareCursor {
+class HardwareCursorNull: public IHardwareCursor {
 public:
 	void PushImage(int xsize, int ysize, const void* mem) override {}
 	void PushFrame(int index, float delay) override {}
@@ -58,7 +57,7 @@ public:
 };
 
 
-#elif defined(_WIN32)
+#if defined(_WIN32) && !defined(HEADLESS)
 
 
 class HardwareCursorWindows: public IHardwareCursor {
@@ -142,7 +141,7 @@ private:
 };
 
 
-#else
+#elif !defined(__APPLE__) && !defined(HEADLESS)
 
 
 // X11/Wayland
@@ -206,8 +205,8 @@ private:
 
 IHardwareCursor* IHardwareCursor::Alloc(void* mem) {
 #if defined(__APPLE__) || defined(HEADLESS)
-	static_assert(sizeof(HardwareCursorApple  ) <= CMouseCursor::HWC_MEM_SIZE, "");
-	return (new (mem) HardwareCursorApple());
+	static_assert(sizeof(HardwareCursorNull) <= CMouseCursor::HWC_MEM_SIZE, "");
+	return (new (mem) HardwareCursorNull());
 #elif defined (_WIN32)
 	static_assert(sizeof(HardwareCursorWindows) <= CMouseCursor::HWC_MEM_SIZE, "");
 	return (new (mem) HardwareCursorWindows());
@@ -231,7 +230,9 @@ IHardwareCursor* IHardwareCursor::Alloc(void* mem) {
 	}
 #endif
 
-	return nullptr;
+	// Offscreen SDL drivers have no window-system cursor; software drawing still works.
+	static_assert(sizeof(HardwareCursorNull) <= CMouseCursor::HWC_MEM_SIZE, "");
+	return (new (mem) HardwareCursorNull());
 }
 
 void IHardwareCursor::Free(IHardwareCursor* hwc) {
