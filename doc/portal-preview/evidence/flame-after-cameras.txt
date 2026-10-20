@@ -1,0 +1,52 @@
+view 1
+angle=0.05
+dx=0
+dy=-0.9987589
+dz=-0.0494359
+flipped=-1
+fov=45
+height=1400
+mode=1
+name=ta
+px=2048
+py=96
+pz=1200
+view 2
+angle=0.80000001
+dx=0
+dy=-0.6973945
+dz=-0.7180771
+flipped=-1
+fov=45
+height=1400
+mode=1
+name=ta
+px=2048
+py=96
+pz=1200
+view 3
+angle=0.05
+dx=0
+dy=-0.9987589
+dz=-0.0494359
+flipped=-1
+fov=45
+height=1400
+mode=1
+name=ta
+px=2048
+py=96
+pz=3000
+view 4
+angle=0.80000001
+dx=0
+dy=-0.6973945
+dz=-0.7180771
+flipped=-1
+fov=45
+height=1400
+mode=1
+name=ta
+px=2048
+py=96
+pz=3000

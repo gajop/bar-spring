@@ -1,6 +1,6 @@
 # Portal worlds preview
 
-[Install and play BAR or Zero-K](PLAY.md) · [Gameplay evidence and known limitations](REVIEW.md) · [Engine review organisation](STACK_PLAN.md)
+[Install and play BAR or Zero-K](PLAY.md) · [Gameplay evidence and known limitations](REVIEW.md) · [Engine review organisation](STACK_PLAN.md) · [Independent bug screenshots and reproducer](BUGFIXES.md)
 
 These guides accompany the [Linux preview release](https://github.com/gajop/bar-spring/releases/tag/portal-preview-20261020). The runtime and recordings are separate release downloads; the guides render directly on GitHub.
 

@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "native_exit_code": 0,
+  "expected_broken": true,
+  "case": "layout",
+  "cyan_pixels": [],
+  "binary_sha256": "ab11577c626e660ceaee192f54224b46e429dbdedb1df183c5b429f05b8152c0",
+  "fixture_sha256": {
+    "README.md": "45888619ae347f837e65333445876e50a43c39cdb64a3b781e7afcce32c21de5",
+    "explosions.lua": "c860a46acf69660de923d574efdcae3918b04139796abf851610e7a63d0f1062",
+    "flame.lua": "b4e26c41d71970f663f0fce819046bf9b5ea3b9dd7b507a4711026c7acc79784",
+    "game/LuaRules/draw.lua": "92dd20f0f6a6ef51ceed998fe38edc2ca3bf16abff168142f8b0df6627f699a7",
+    "game/LuaRules/main.lua": "15c150347e0df02b73def56d7619c70062afeb4600fad1e37cce0213bd966ef3",
+    "game/gamedata/modrules.lua": "4905e8ab655a246af0b8670a174160f78273fe2029ee0edc744b80dd1d2c9ced",
+    "game/gamedata/sidedata.lua": "8287c6c12b6bb14c070ff300ae618bbcf8ffe87a3b68744cad8c49ad803088ae",
+    "game/modinfo.lua": "f967d3e9f2c6acf6673390707eeb32aed2d6a698018b7a308ae7bc82f539038c",
+    "game/scripts/region_test_unit.lua": "a6b1ccebbdc299ddbf8bbf9b81c1eb62905245d1269c02ce85e42324a1a9c954",
+    "game/units/region_test_unit.lua": "4e180b6c90d55923ace5f721d3602b2c34f665626a20556f8202c2ccd18cdf40",
+    "game/weapons/noweapon.lua": "d0b4ecdf254f3a58e8f594c1d86ce7a56fa75f312c91915f98a2553499da6bee",
+    "growth.lua": "be253dac365112e680ce579b9233602c1af17d0504a740928441ec1623ce43d1",
+    "layout.lua": "7e0ea06aed97b9cfaccfa07bee33890b248884c0711cfee23d5be2baf6d17bca",
+    "limit_swap.c": "c574c463e3973860e549fd63a441ce31a6800db740731e268ccb3e1f7dfc3b14",
+    "map_fixture.py": "5a7530100e6adebef20267759455596bd179bb1498fc568d0858c0a706f541d0",
+    "resources.lua": "d4ccbc0e96ee76eaae05e254243969124da942c80e02cc9112c86adba0769ab7",
+    "run.py": "60a3e9633ae3b26725f16060876da5fbef5b9c1eb6069948ccdfc0cb8145bf66",
+    "setup.lua": "77bcdc4dc312ed9869caaccb03e88cca4eb8216bf947ae880a2562904b93e8eb"
+  }
+}

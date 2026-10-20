@@ -1,0 +1,14 @@
+{
+  "_ZNK18CBitmapMuzzleFlame13GetDrawRadiusEv": {
+    "calls_size_scale_helper": false,
+    "call_count": 2
+  },
+  "_ZN18CBitmapMuzzleFlame4DrawEv": {
+    "calls_size_scale_helper": false,
+    "call_count": 1
+  },
+  "_ZN18CBitmapMuzzleFlame4DrawEv.part.0": {
+    "calls_size_scale_helper": false,
+    "call_count": 18
+  }
+}

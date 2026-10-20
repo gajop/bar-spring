@@ -1,0 +1,538 @@
+[t=00:00:00.000000] [DataDirLocater::FindWriteableDataDir] using writeable data-directory "/home/gajop/projects/spring-projects/portal-publication-20261020/evidence/bug-screenshots/final/growth-before/write/"
+[t=00:00:00.000041] Using writeable configuration source: "/home/gajop/projects/spring-projects/portal-publication-20261020/evidence/bug-screenshots/final/growth-before/spring.conf"
+[t=00:00:00.000984] LogOutput initialized. Logging to /home/gajop/projects/spring-projects/portal-publication-20261020/evidence/bug-screenshots/final/growth-before/write/infolog.txt
+[t=00:00:00.001007] ============== <Log Sections ([A]vailable, [E]nabled)> ==============
+[t=00:00:00.001009]   
+    [A] ArchiveScanner
+    [A] AutohostInterface
+    [A] BumpWater
+    [A] CSMFGroundTextures
+    [A] CrashHandler
+    [A] CregSerializer
+    [A] DynWater
+    [A] Font
+    [A] GameServer
+    [A] GroundMoveType
+    [A] KeyBindings
+    [A] LuaSocket
+    [A] Model
+    [A] Net
+    [A] Path
+    [A] Piece
+    [A] RoamMeshDrawer
+    [A] Shader
+    [A] SkyBox
+    [A] Sound
+    [A] Texture
+    [A] VFS
+    [E] Sound (Notice)
+    [E] VFS (Info)
+[t=00:00:00.001011]   
+[t=00:00:00.001012]   Enable or disable log sections using the LogSections configuration key
+[t=00:00:00.001014]   or the SPRING_LOG_SECTIONS environment variable (both comma separated).
+[t=00:00:00.001016]   Use "none" to disable the default log sections.
+[t=00:00:00.001017] ============== </Log Sections> ==============
+
+[t=00:00:00.001019] ============== <User Config> ==============
+[t=00:00:00.001038]   Fullscreen = 0
+[t=00:00:00.001040]   ShadowMapSize = 1024
+[t=00:00:00.001042]   Shadows = 1
+[t=00:00:00.001044]   SoftParticles = 0
+[t=00:00:00.001046]   Sound = 0
+[t=00:00:00.001047]   UnitIconDist = 100000
+[t=00:00:00.001049]   VSync = 0
+[t=00:00:00.001051]   WorkerThreadCount = 2
+[t=00:00:00.001053]   XResolutionWindowed = 1280
+[t=00:00:00.001055]   YResolutionWindowed = 720
+[t=00:00:00.001057] ============== </User Config> ==============
+
+[t=00:00:00.001059] ============== <User System> ==============
+[t=00:00:00.001061]   Spring Engine Version: 2026.09.01-30-gbf25266 master
+[t=00:00:00.001063]       Build Environment: gcc libstdc++ version 20230711
+[t=00:00:00.001065]        Compiler Version: gcc-13.1.0
+[t=00:00:00.001068]        Operating System: Linux 6.8.0-147-generic #147-Ubuntu SMP PREEMPT_DYNAMIC Thu Sep 24 11:33:16 UTC 2026 (x86_64)
+[t=00:00:00.001101]         Hardware Config: 12th Gen Intel(R) Core(TM) i7-12700; 31879MB RAM
+[t=00:00:00.001103]        Binary Word Size: 64-bit (native)
+[t=00:00:00.001106]           Process Clock: std::chrono::high_resolution_clock
+[t=00:00:00.001109]      Physical CPU Cores: 12
+[t=00:00:00.001111]       Logical CPU Cores: 20
+[t=00:00:00.001114] ============== </User System> ==============
+
+[t=00:00:00.001117] Run: thread affinity fffff
+[t=00:00:00.001124] [good_fpu_init][STREFLOP_SSE]
+[t=00:00:00.001126] 	SSE 1.0 : 1,  SSE 2.0 : 1
+[t=00:00:00.001128] 	SSE 3.0 : 1, SSSE 3.0 : 1
+[t=00:00:00.001130] 	SSE 4.1 : 1,  SSE 4.2 : 1
+[t=00:00:00.001132] 	SSE 4.0A: 0,  SSE 5.0A: 0
+[t=00:00:00.045475] [WatchDog::Install] installed (hang-timeout: 60s)
+[t=00:00:00.045489] [WatchDog::RegisterThread] registering controls for thread [main]
+[t=00:00:00.046560] [GL::CheckAvailableVideoModes] desktop={1024x768x24bpp@0Hz} current={1024x768x24bpp@0Hz}
+[t=00:00:00.046582] 	Display (0)=1 modes=1 bounds={x=0, y=0, w=1024, h=768}
+[t=00:00:00.083063] [GR::CreateSDLWindow] using 0x anti-aliasing and 24-bit depth-buffer (PF="SDL_PIXELFORMAT_RGB888") for main window
+[t=00:00:00.083127] [GR::SetWindowAttributes][1] cfgFullScreen=0 numDisplays=1 winPos=<0,32> newRes=<1280,720>
+[t=00:00:00.083129] [GR::SetWindowAttributes][2] cfgFullScreen=0 numDisplays=1 winPos=<0,32> newRes=<1024,720>
+[t=00:00:00.369660] [GR::LogVersionInfo]
+[t=00:00:00.369674] 	SDL version : 2.30.0 (linked) / 2.0.8 (compiled)
+[t=00:00:00.369688] 	GL version  : 4.6.0 NVIDIA 580.178.04
+[t=00:00:00.369690] 	GL vendor   : NVIDIA Corporation
+[t=00:00:00.369691] 	GL renderer : NVIDIA GeForce GTX 1660 Ti/PCIe/SSE2
+[t=00:00:00.369693] 	GLSL version: 4.60 NVIDIA
+[t=00:00:00.369698] 	GLAD version: 0.1.36
+[t=00:00:00.369699] 	GPU memory  : 6144MB (total) / 3651MB (available)
+[t=00:00:00.369702] 	SDL swap-int: 0
+[t=00:00:00.369704] 	SDL driver  : offscreen
+[t=00:00:00.369705] 	
+[t=00:00:00.369707] 	Initialized OpenGL Context: 4.6 (Compat)
+[t=00:00:00.369709] 	GLSL shader support       : 1
+[t=00:00:00.369711] 	GL4 support               : 1
+[t=00:00:00.369712] 	FBO extension support     : 1
+[t=00:00:00.369714] 	NVX GPU mem-info support  : 1
+[t=00:00:00.369716] 	ATI GPU mem-info support  : 0
+[t=00:00:00.369718] 	Texture clamping to edge  : 1
+[t=00:00:00.369720] 	S3TC/DXT1 texture support : 1/1
+[t=00:00:00.369722] 	texture query-LOD support : 1 (1)
+[t=00:00:00.369723] 	MSAA frame-buffer support : 1 (1)
+[t=00:00:00.369725] 	Z-buffer depth            : 32 (-)
+[t=00:00:00.369727] 	primitive-restart support : 1 (1)
+[t=00:00:00.369728] 	clip-space control support: 1 (1)
+[t=00:00:00.369731] 	seamless cube-map support : 1 (1)
+[t=00:00:00.369732] 	frag-depth layout support : 1 (1)
+[t=00:00:00.369735] 	persistent maps support   : 1 (1)
+[t=00:00:00.369737] 	explicit attribs location : 1 (1)
+[t=00:00:00.369739] 	multi draw indirect       : 1 (-)
+[t=00:00:00.369741] 	array textures            : 1 (-)
+[t=00:00:00.369743] 	buffer copy support       : 1 (-)
+[t=00:00:00.369745] 	indirect draw             : 1 (-)
+[t=00:00:00.369747] 	base instance             : 1 (-)
+[t=00:00:00.369749] 	
+[t=00:00:00.369752] 	max. FBO samples              : 32
+[t=00:00:00.369753] 	max. texture slots            : 8
+[t=00:00:00.369755] 	max. FS/program texture slots : 32/192
+[t=00:00:00.369757] 	max. texture size             : 32768
+[t=00:00:00.369761] 	max. texture anisotropy level : 16.000000
+[t=00:00:00.369763] 	max. vec4 varyings/attributes : 31/16
+[t=00:00:00.369765] 	max. draw-buffers             : 8
+[t=00:00:00.369767] 	max. rec. indices/vertices    : 1048576/1048576
+[t=00:00:00.369769] 	max. uniform buffer-bindings  : 84
+[t=00:00:00.369771] 	max. uniform block-size       : 64KB
+[t=00:00:00.369773] 	max. storage buffer-bindings  : 96
+[t=00:00:00.369775] 	max. storage block-size       : 2047MB
+[t=00:00:00.369777] 	
+[t=00:00:00.369779] 	enable AMD-hacks : 0
+[t=00:00:00.369781] 	compress MIP-maps: 0
+[t=00:00:00.369797] 	Number of compressed texture formats: 23
+[t=00:00:00.369803] 	Compressed texture formats: GL_COMPRESSED_RGB_S3TC_DXT1_EXT, GL_COMPRESSED_RGBA_S3TC_DXT3_EXT, GL_COMPRESSED_RGBA_S3TC_DXT5_EXT, GL_PALETTE4_RGB8_OES, GL_PALETTE4_RGBA8_OES, GL_PALETTE4_R5_G6_B5_OES, GL_PALETTE4_RGBA4_OES, GL_PALETTE4_RGB5_A1_OES, GL_PALETTE8_RGB8_OES, GL_PALETTE8_RGBA8_OES, GL_PALETTE8_R5_G6_B5_OES, GL_PALETTE8_RGBA4_OES, GL_PALETTE8_RGB5_A1_OES, GL_COMPRESSED_RGB8_ETC2, GL_COMPRESSED_SRGB8_ETC2, GL_COMPRESSED_RGB8_PUNCHTHROUGH_ALPHA1_ETC2, GL_COMPRESSED_SRGB8_PUNCHTHROUGH_ALPHA1_ETC2, GL_COMPRESSED_RGBA8_ETC2_EAC, GL_COMPRESSED_SRGB8_ALPHA8_ETC2_EAC, GL_COMPRESSED_R11_EAC, GL_COMPRESSED_SIGNED_R11_EAC, GL_COMPRESSED_RG11_EAC, GL_COMPRESSED_SIGNED_RG11_EAC. 
+[t=00:00:00.369807] [GR::ToggleGLDebugOutput] OpenGL debug-message callback disabled
+[t=00:00:00.369962] [GR::UpdateGLConfigs]
+[t=00:00:00.369977] [VSync::SetInterval] interval=0 (disabled)
+[t=00:00:00.369979] [GR::UpdateGLGeometry][1] winSize=<1,1>
+[t=00:00:00.369986] [GR::UpdateScreenMatrices] vpx=0.000000, vpy=16.000000, vsx=1024.000000, vsy=720.000000, ssx=1024.000000, ssy=768.000000, screenPosX=0, screenPosY=0
+[t=00:00:00.369989] [GR::UpdateGLGeometry][2] winSize=<1024,720>
+[t=00:00:00.369990] [GR::InitGLState]
+[t=00:00:00.370091] [GR::LogDisplayMode] display-mode set to 1024x720x24bpp@0Hz (windowed::decorated)
+[t=00:00:00.529845] [TexMemPool::Resize] poolSize=536870912u allocSize=0u texCount=0u
+[t=00:00:00.530034] [Font] [InitFontconfig] Using Fontconfig light init
+[t=00:00:00.533382] [Font] [InitFontconfig] Using Fontconfig cache dir "/home/gajop/projects/spring-projects/portal-publication-20261020/evidence/bug-screenshots/final/growth-before/fontcache"
+[t=00:00:00.533387] [Font] [InitFontconfig] Using Fontconfig cache dir "/home/gajop/projects/spring-projects/portal-publication-20261020/evidence/bug-screenshots/final/growth-before/write/fontcache"
+[t=00:00:00.533391] [~ScopedOnceTimer][InitFontconfig::FontConfigInit (version 2.12.6)] 3ms
+[t=00:00:00.533478] [CglFont::CglShaderFontRenderer] Creating Font shaders: GLAD_GL_ARB_explicit_attrib_location = true
+[t=00:00:00.535764] [ThreadPool::SetThreadCount][1] wanted=20 current=1 maximum=20 (init=1)
+[t=00:00:00.537062] [ThreadPool::SetThreadCount][2] workers=19
+[t=00:00:00.537206] [WatchDog::RegisterThread] registering controls for thread [vfsi]
+[t=00:00:00.537282] [DataDirLocater::FindWriteableDataDir] using writeable data-directory "/home/gajop/projects/spring-projects/portal-publication-20261020/evidence/bug-screenshots/final/growth-before/write/"
+[t=00:00:00.537287] [DataDirLocater::Check] Isolation Mode!
+[t=00:00:00.537305] [DataDirLocater::FilterUsableDataDirs] using read-write data directory: /home/gajop/projects/spring-projects/portal-publication-20261020/evidence/bug-screenshots/final/growth-before/write/
+[t=00:00:00.537317] [DataDirLocater::FilterUsableDataDirs] using read-only data directory: /tmp/engine-bug-repro-x94x54uz/
+[t=00:00:00.537512] [AS::ReadCacheData] ArchiveCache cache/ArchiveCache21.lua doesn't exist
+[t=00:00:00.537522] [AS::ReadCacheData] ArchiveCache cache/ArchiveCache20.lua doesn't exist
+[t=00:00:00.537530] [AS::ReadCacheData] ArchiveCache cache/ArchiveCache19.lua doesn't exist
+[t=00:00:00.537538] [AS::ReadCacheData] ArchiveCache cache/ArchiveCache22.lua doesn't exist
+[t=00:00:00.537562] Scanning: /tmp/engine-bug-repro-x94x54uz/base
+[t=00:00:00.537676] Scanning: /tmp/engine-bug-repro-x94x54uz/maps
+[t=00:00:00.537696] Scanning: /tmp/engine-bug-repro-x94x54uz/games
+[t=00:00:00.581344] [~CBufferedArchive][name=/tmp/engine-bug-repro-x94x54uz/base/spring/bitmaps.sdz] 0 bytes cached in 0 files, 0 bytes cached in 133 files
+[t=00:00:00.581509] [~CBufferedArchive][name=/tmp/engine-bug-repro-x94x54uz/base/maphelper.sdz] 0 bytes cached in 0 files, 0 bytes cached in 9 files
+[t=00:00:00.581899] [~CBufferedArchive][name=/tmp/engine-bug-repro-x94x54uz/base/cursors.sdz] 0 bytes cached in 0 files, 0 bytes cached in 111 files
+[t=00:00:00.582575] [~CBufferedArchive][name=/tmp/engine-bug-repro-x94x54uz/base/springcontent.sdz] 0 bytes cached in 0 files, 0 bytes cached in 202 files
+[t=00:00:00.582684] [~ScopedOnceTimer][CArchiveScanner::ScanAllDirs] 45ms
+[t=00:00:00.582694] [VFS] [SpringVFS::ReserveArchives<this=0x79b20bf50080>]
+[t=00:00:00.582714] [VFS] [SpringVFS::AddArchive<this=0x79b20bf50080>(arName="Spring content v1", overwrite=false)] section=2 cached=0
+[t=00:00:00.583304] [VFS] [VFSHandler::SetGlobalInstanceRaw] handler=0x79b20bf50080 (SpringVFS) global=(nil) (null)
+[t=00:00:00.583309] [WatchDog::DeregisterThread] deregistering controls for thread [vfsi]
+[t=00:00:00.621701] [ThreadPool::SetThreadCount][1] wanted=2 current=20 maximum=20 (init=0)
+[t=00:00:00.640565] [ThreadPool::SetThreadCount][2] workers=1
+[t=00:00:00.640598] CPU Affinity Mask Details detected:
+[t=00:00:00.640600] -- Performance Core Mask:      0x0000ffff
+[t=00:00:00.640601] -- Efficiency  Core Mask:      0x000f0000
+[t=00:00:00.640603] -- Hyper Thread/SMT Low Mask:  0x00005555
+[t=00:00:00.640605] -- Hyper Thread/SMT High Mask: 0x0000aaaa
+[t=00:00:00.640606] -- Optimal Cache Mask:         0x000fffff
+[t=00:00:00.640622] [ThreadPool] Main thread affinity requested as 0x00000000
+[t=00:00:00.663662] [Threading] Worker 1 thread CPU affinity mask set: 0xffff
+[t=00:00:00.663729] [Threading] Main thread CPU affinity mask set: 0xffff
+[Info] /build/src/tools/pr-downloader/src/Downloader/CurlWrapper.cpp:32:DumpVersion():libcurl 8.15.0 OpenSSL/3.5.2
+[Info] /build/src/tools/pr-downloader/src/Downloader/CurlWrapper.cpp:80:ConfigureCertificates():CURLOPT_CAINFO is /etc/ssl/certs/ca-certificates.crt (can be overriden by PRD_SSL_CERT_FILE env variable)
+[Info] /build/src/tools/pr-downloader/src/Downloader/CurlWrapper.cpp:82:ConfigureCertificates():CURLOPT_CAPATH is /etc/ssl/certs (can be overriden by PRD_SSL_CERT_DIR env variable)
+[Info] /build/src/tools/pr-downloader/src/FileSystem/FileSystem.cpp:203:setWritePath():Using filesystem-writepath: /home/gajop/projects/spring-projects/portal-publication-20261020/evidence/bug-screenshots/final/growth-before/write
+[Info] /build/src/tools/pr-downloader/src/pr-downloader.cpp:202:DownloadSetConfig():Free disk space: 533498 MB
+[t=00:00:00.664419][f=-000001] [StartScript] Loading StartScript from: /home/gajop/projects/spring-projects/portal-publication-20261020/evidence/bug-screenshots/final/growth-before/start.txt
+[t=00:00:00.664845][f=-000001] [CPreGame] using server IP localhost and port 0
+[t=00:00:00.664856][f=-000001] [NetProto::InitLocalClient] connecting to local server
+[t=00:00:00.664922][f=-000001] 
+[t=00:00:00.664924][f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SHOWN][1] fullScreen=0
+[t=00:00:00.664927][f=-000001] [~ScopedOnceTimer][Sound::Iconified] 0ms
+[t=00:00:00.664929][f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SHOWN][2]
+
+[t=00:00:00.664932][f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SIZE_CHANGED][1] fullScreen=0
+[t=00:00:00.665027][f=-000001] [GR::UpdateGLConfigs]
+[t=00:00:00.665031][f=-000001] [GR::UpdateGLGeometry][1] winSize=<1024,720>
+[t=00:00:00.665045][f=-000001] [GR::UpdateScreenMatrices] vpx=0.000000, vpy=16.000000, vsx=1024.000000, vsy=720.000000, ssx=1024.000000, ssy=768.000000, screenPosX=0, screenPosY=0
+[t=00:00:00.665048][f=-000001] [GR::UpdateGLGeometry][2] winSize=<1024,720>
+[t=00:00:00.665050][f=-000001] [GR::InitGLState]
+[t=00:00:00.665096][f=-000001] [GR::LogDisplayMode] display-mode set to 1024x720x24bpp@0Hz (windowed::decorated)
+[t=00:00:00.665099][f=-000001] [~ScopedOnceTimer][GlobalRendering::UpdateGL] 0ms
+[t=00:00:00.665102][f=-000001] [~ScopedOnceTimer][ActiveController::ResizeEvent] 0ms
+[t=00:00:00.665104][f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SIZE_CHANGED][2]
+
+[t=00:00:00.665577][f=-000001] [PreGame::AddMapArchivesToVFS][server=(nil)] using map "Region View Fixture 1" (loaded=0 cached=0)
+[t=00:00:00.665601][f=-000001] [VFS] [SpringVFS::AddArchive<this=0x79b20bf50080>(arName="Region View Fixture 1", overwrite=false)] section=1 cached=0
+[t=00:00:00.665685][f=-000001] [VFS] [SpringVFS::AddArchive<this=0x79b20bf50080>(arName="Map Helper v1", overwrite=false)] section=2 cached=0
+[t=00:00:00.669591][f=-000001] [CAS::GASCB] Archive file="bug_map.sdd" cs="8cb653340225ca120e3f55b7eb281900c8db5e053da5cd254669c5e51b29082b42b0c5b2996478bea748b9346e96a087d7cc996fdf3ba841064d909d7c573165"
+[t=00:00:00.669840][f=-000001] [~CBufferedArchive][name=/tmp/engine-bug-repro-x94x54uz/base/maphelper.sdz] 0 bytes cached in 0 files, 0 bytes cached in 9 files
+[t=00:00:00.669845][f=-000001] [CAS::GASCB] Archive file="maphelper.sdz" cs="6ecfd8e47b2c0bde27517e92bd171d1d036e0482cbfc929a1925b5239e4d5947ed335df18ba4775b16843a9affe42b5fcd2aad9957bacb63a48ae005c799524e"
+[t=00:00:00.670073][f=-000001] [CAS::GASCB] Archive file="bug_game.sdd" cs="a220a7fb6afed2139081f7823fee24670f0b563f694980fe0f916d873a1c5cc8f3b74fae2ea3f4a8df5790879b3e78f877ebf12dcfc3fe9456951225076a0598"
+[t=00:00:00.671830][f=-000001] [~CBufferedArchive][name=/tmp/engine-bug-repro-x94x54uz/base/cursors.sdz] 0 bytes cached in 0 files, 0 bytes cached in 111 files
+[t=00:00:00.671839][f=-000001] [CAS::GASCB] Archive file="cursors.sdz" cs="f97ffe671edbf35658b34557f6f3bcdaf450da384f3f9463dc2b52f4d02a6ea71d6622764d844ca167dd02c71d2a3df52d57cab595da0b584e180ab1bd9929f6"
+[t=00:00:00.676067][f=-000001] [~CBufferedArchive][name=/tmp/engine-bug-repro-x94x54uz/base/springcontent.sdz] 0 bytes cached in 0 files, 0 bytes cached in 202 files
+[t=00:00:00.676081][f=-000001] [CAS::GASCB] Archive file="springcontent.sdz" cs="de60527c7c860677f3e5f2221cccfa210f0521c6813279b03ee9521dd0ed84dc26b80907649662b806277ba5b638e01d8bf31339434bc8b8ef9d8beab9f72a34"
+[t=00:00:00.716796][f=-000001] [~CBufferedArchive][name=/tmp/engine-bug-repro-x94x54uz/base/spring/bitmaps.sdz] 0 bytes cached in 0 files, 0 bytes cached in 133 files
+[t=00:00:00.716819][f=-000001] [CAS::GASCB] Archive file="bitmaps.sdz" cs="13e1d0e6c3383afef7cda84eff1342271b1c82d13c66b376918ee61a25f77d5c662f6160ec74a121d59dbd8f29d9f10a00ab316cd1b3204a8be2c958c84a38eb"
+[t=00:00:00.716969][f=-000001] [PreGame::StartServer]
+	mod-checksum=96dedb06cb9b1dcccc1ae8b92ac220bbef422f109b22de5b7cdd8b741f2ccbefae4605bfebc57b906b30546a19f5541ad1e419cdc8e11d3e7cf25a26cb4e3eb1
+	map-checksum=e2798bd07909c1cc296e2b25563f041dcbb55a87f6595fbf5f4c70c68564516caf83984312c00fe5b1cc83ae91728bd81ae634f688816322a2c77098bbce632b
+[t=00:00:00.716972][f=-000001] [PreGame::StartServer] Game/Map archives checksum acquisition took = 52 microseconds
+[t=00:00:00.717473][f=-000001] [GameServer] Initialize: thread affinity ffff
+[t=00:00:00.717491][f=-000001] [~ScopedOnceTimer][PreGame::StartServer] 52ms
+[t=00:00:00.733902][f=-000001] [PreGame::AddMapArchivesToVFS][server=0x79b20c051000] using map "Region View Fixture 1" (loaded=1 cached=0)
+[t=00:00:00.733927][f=-000001] [VFS] [SpringVFS::AddArchive<this=0x79b20bf50080>(arName="Region View Fixture 1", overwrite=false)] section=1 cached=0
+[t=00:00:00.733934][f=-000001] [VFS] [SpringVFS::AddArchive<this=0x79b20bf50080>(arName="Map Helper v1", overwrite=false)] section=2 cached=0
+[t=00:00:00.733950][f=-000001] [PreGame::AddModArchivesToVFS][server=0x79b20c051000] using game "Region View Regression 1" (loaded=0 cached=0)
+[t=00:00:00.733964][f=-000001] [VFS] [SpringVFS::AddArchive<this=0x79b20bf50080>(arName="Region View Regression 1", overwrite=false)] section=0 cached=0
+[t=00:00:00.734124][f=-000001] [VFS] [SpringVFS::AddArchive<this=0x79b20bf50080>(arName="Spring Cursors", overwrite=false)] section=2 cached=0
+[t=00:00:00.734483][f=-000001] [VFS] [SpringVFS::AddArchive<this=0x79b20bf50080>(arName="Spring content v1", overwrite=false)] section=2 cached=0
+[t=00:00:00.734524][f=-000001] [VFS] [SpringVFS::AddArchive<this=0x79b20bf50080>(arName="Spring Bitmaps", overwrite=false)] section=2 cached=0
+[t=00:00:00.734930][f=-000001] [CAS::GASCB] Archive file="bug_map.sdd" cs="8cb653340225ca120e3f55b7eb281900c8db5e053da5cd254669c5e51b29082b42b0c5b2996478bea748b9346e96a087d7cc996fdf3ba841064d909d7c573165"
+[t=00:00:00.734939][f=-000001] [CAS::GASCB] Archive file="maphelper.sdz" cs="6ecfd8e47b2c0bde27517e92bd171d1d036e0482cbfc929a1925b5239e4d5947ed335df18ba4775b16843a9affe42b5fcd2aad9957bacb63a48ae005c799524e"
+[t=00:00:00.734958][f=-000001] [CAS::GASCB] Archive file="bug_game.sdd" cs="a220a7fb6afed2139081f7823fee24670f0b563f694980fe0f916d873a1c5cc8f3b74fae2ea3f4a8df5790879b3e78f877ebf12dcfc3fe9456951225076a0598"
+[t=00:00:00.734964][f=-000001] [CAS::GASCB] Archive file="cursors.sdz" cs="f97ffe671edbf35658b34557f6f3bcdaf450da384f3f9463dc2b52f4d02a6ea71d6622764d844ca167dd02c71d2a3df52d57cab595da0b584e180ab1bd9929f6"
+[t=00:00:00.734971][f=-000001] [CAS::GASCB] Archive file="springcontent.sdz" cs="de60527c7c860677f3e5f2221cccfa210f0521c6813279b03ee9521dd0ed84dc26b80907649662b806277ba5b638e01d8bf31339434bc8b8ef9d8beab9f72a34"
+[t=00:00:00.734977][f=-000001] [CAS::GASCB] Archive file="bitmaps.sdz" cs="13e1d0e6c3383afef7cda84eff1342271b1c82d13c66b376918ee61a25f77d5c662f6160ec74a121d59dbd8f29d9f10a00ab316cd1b3204a8be2c958c84a38eb"
+[t=00:00:00.734987][f=-000001] [~ScopedOnceTimer][PreGame::GameDataReceived] 1ms
+[t=00:00:00.766355][f=-000001] [PreGame::UpdateClientNet] received local player number 0 (team 0, allyteam 0), creating LoadScreen
+[t=00:00:00.809012][f=-000001] [CAS::GASCB] Archive file="bug_map.sdd" cs="8cb653340225ca120e3f55b7eb281900c8db5e053da5cd254669c5e51b29082b42b0c5b2996478bea748b9346e96a087d7cc996fdf3ba841064d909d7c573165"
+[t=00:00:00.809035][f=-000001] [CAS::GASCB] Archive file="maphelper.sdz" cs="6ecfd8e47b2c0bde27517e92bd171d1d036e0482cbfc929a1925b5239e4d5947ed335df18ba4775b16843a9affe42b5fcd2aad9957bacb63a48ae005c799524e"
+[t=00:00:00.809059][f=-000001] [CAS::GASCB] Archive file="bug_game.sdd" cs="a220a7fb6afed2139081f7823fee24670f0b563f694980fe0f916d873a1c5cc8f3b74fae2ea3f4a8df5790879b3e78f877ebf12dcfc3fe9456951225076a0598"
+[t=00:00:00.809066][f=-000001] [CAS::GASCB] Archive file="cursors.sdz" cs="f97ffe671edbf35658b34557f6f3bcdaf450da384f3f9463dc2b52f4d02a6ea71d6622764d844ca167dd02c71d2a3df52d57cab595da0b584e180ab1bd9929f6"
+[t=00:00:00.809077][f=-000001] [CAS::GASCB] Archive file="springcontent.sdz" cs="de60527c7c860677f3e5f2221cccfa210f0521c6813279b03ee9521dd0ed84dc26b80907649662b806277ba5b638e01d8bf31339434bc8b8ef9d8beab9f72a34"
+[t=00:00:00.809085][f=-000001] [CAS::GASCB] Archive file="bitmaps.sdz" cs="13e1d0e6c3383afef7cda84eff1342271b1c82d13c66b376918ee61a25f77d5c662f6160ec74a121d59dbd8f29d9f10a00ab316cd1b3204a8be2c958c84a38eb"
+[t=00:00:00.811811][f=-000001] [LuaIntro] Searching for new Widgets
+[t=00:00:00.811828][f=-000001] [LuaIntro] Scanning: LuaIntro/Addons/
+[t=00:00:00.811897][f=-000001] [LuaIntro] Scanning: LuaIntro/Widgets/
+[t=00:00:00.811916][f=-000001] [LuaIntro] Scanning: LuaIntro/SystemAddons/
+[t=00:00:00.811928][f=-000001] [LuaIntro] Scanning: LuaIntro/SystemWidgets/
+[t=00:00:00.811940][f=-000001] [LuaIntro] Scanning: LuaIntro/chili/
+[t=00:00:00.812288][f=-000001] [LuaIntro] Found new widget "SpringLogo"
+[t=00:00:00.812376][f=-000001] [LuaIntro] Found new widget "LoadTexture"
+[t=00:00:00.812448][f=-000001] [LuaIntro] Found new widget "LoadProgress"
+[t=00:00:00.812587][f=-000001] [LuaIntro] Found new widget "Main"
+[t=00:00:00.812643][f=-000001] [LuaIntro] Found new widget "Music"
+[t=00:00:00.812648][f=-000001] [LuaIntro] Loading widgets   <>=vfs  **=raw  ()=unknown
+[t=00:00:00.812773][f=-000001] [LuaIntro] Loading widget:      LoadProgress           <loadprogress.lua>
+[t=00:00:00.814574][f=-000001] [LuaIntro] Loading widget:      Main                   <main.lua>
+[t=00:00:00.814862][f=-000001] [LuaIntro] Loading widget:      Music                  <music.lua>
+[t=00:00:00.815137][f=-000001] [LuaIntro] Loading widget:      LoadTexture            <bg_texture.lua>
+[t=00:00:00.815241][f=-000001] [LuaIntro] LuaIntro v1.0 (Lua 5.1 with Recoil-specific changes)
+[t=00:00:00.815538][f=-000001] [LoadScreen::Init] single-threaded
+[t=00:00:00.815544][f=-000001] [WatchDog::RegisterThread] registering controls for thread [load]
+[t=00:00:00.900178][f=-000001] [Game::Load][1] globalQuit=0 threaded=0
+[t=00:00:00.900202][f=-000001] [LoadScreen::SetLoadMessage] text="Parsing Map Information"
+[t=00:00:01.010290][f=-000001] [LoadScreen::SetLoadMessage] text="Loading SMF"
+[t=00:00:01.048091][f=-000001] [LoadScreen::SetLoadMessage] text="Loading Map (33 MB)"
+[t=00:00:01.102622][f=-000001] [~ScopedOnceTimer][Game::LoadMap] 202ms
+[t=00:00:01.102649][f=-000001] [LoadScreen::SetLoadMessage] text="Loading GameData Definitions"
+[t=00:00:01.110235][f=-000001] [CAS::GASCB] Archive file="bug_map.sdd" cs="8cb653340225ca120e3f55b7eb281900c8db5e053da5cd254669c5e51b29082b42b0c5b2996478bea748b9346e96a087d7cc996fdf3ba841064d909d7c573165"
+[t=00:00:01.110261][f=-000001] [CAS::GASCB] Archive file="maphelper.sdz" cs="6ecfd8e47b2c0bde27517e92bd171d1d036e0482cbfc929a1925b5239e4d5947ed335df18ba4775b16843a9affe42b5fcd2aad9957bacb63a48ae005c799524e"
+[t=00:00:01.110297][f=-000001] [CAS::GASCB] Archive file="bug_game.sdd" cs="a220a7fb6afed2139081f7823fee24670f0b563f694980fe0f916d873a1c5cc8f3b74fae2ea3f4a8df5790879b3e78f877ebf12dcfc3fe9456951225076a0598"
+[t=00:00:01.110307][f=-000001] [CAS::GASCB] Archive file="cursors.sdz" cs="f97ffe671edbf35658b34557f6f3bcdaf450da384f3f9463dc2b52f4d02a6ea71d6622764d844ca167dd02c71d2a3df52d57cab595da0b584e180ab1bd9929f6"
+[t=00:00:01.110316][f=-000001] [CAS::GASCB] Archive file="springcontent.sdz" cs="de60527c7c860677f3e5f2221cccfa210f0521c6813279b03ee9521dd0ed84dc26b80907649662b806277ba5b638e01d8bf31339434bc8b8ef9d8beab9f72a34"
+[t=00:00:01.110324][f=-000001] [CAS::GASCB] Archive file="bitmaps.sdz" cs="13e1d0e6c3383afef7cda84eff1342271b1c82d13c66b376918ee61a25f77d5c662f6160ec74a121d59dbd8f29d9f10a00ab316cd1b3204a8be2c958c84a38eb"
+[t=00:00:01.112357][f=-000001] [~ScopedOnceTimer][[defs.lua] loading all *Defs tables:] 1ms
+[t=00:00:01.112427][f=-000001] [~ScopedOnceTimer][Game::LoadDefs (GameData)] 9ms
+[t=00:00:01.112433][f=-000001] [LoadScreen::SetLoadMessage] text="Loading Radar Icons"
+[t=00:00:01.184680][f=-000001] CTextureRenderAtlas::CalculateAtlas() atlas=IconsAtlas_0 atlasFinalized=1
+[t=00:00:01.185770][f=-000001] [LoadScreen::SetLoadMessage] text="Loading Sound Definitions"
+[t=00:00:01.219505][f=-000001] [~ScopedOnceTimer][Game::LoadDefs (Sound)] 33ms
+[t=00:00:01.219524][f=-000001] [Game::Load][2] globalQuit=0 forcedQuit=0
+[t=00:00:01.219531][f=-000001] [LoadScreen::SetLoadMessage] text="Creating Smooth Height Mesh"
+[t=00:00:01.253879][f=-000001] [~ScopedOnceTimer][SmoothHeightMesh::MakeSmoothMesh] 0ms
+[t=00:00:01.253905][f=-000001] [LoadScreen::SetLoadMessage] text="Creating QuadField & CEGs"
+[t=00:00:01.286195][f=-000001] [Init] number of ArmorDefs: 1
+[t=00:00:01.328487][f=-000001] [RegisterModelFormats] supported (Assimp) model formats: *.3ds;*.blend;*.dae;*.lwo;*.obj;
+[t=00:00:01.337052][f=-000001] [LoadScreen::SetLoadMessage] text="Creating Unit Textures"
+[t=00:00:01.371297][f=-000001] [LoadScreen::SetLoadMessage] text="Creating Sky"
+[t=00:00:01.410438][f=-000001] [Game::Load][3] globalQuit=0 forcedQuit=0
+[t=00:00:01.410465][f=-000001] [LoadScreen::SetLoadMessage] text="Loading Weapon Definitions"
+[t=00:00:01.437529][f=-000001] [~ScopedOnceTimer][Game::PostLoadSim (WeaponDefs)] 27ms
+[t=00:00:01.437552][f=-000001] [LoadScreen::SetLoadMessage] text="Loading Unit Definitions"
+[t=00:00:01.470879][f=-000001] [~ScopedOnceTimer][Game::PostLoadSim (UnitDefs)] 33ms
+[t=00:00:01.470902][f=-000001] [LoadScreen::SetLoadMessage] text="Loading Feature Definitions"
+[t=00:00:01.504266][f=-000001] [~ScopedOnceTimer][Game::PostLoadSim (FeatureDefs)] 33ms
+[t=00:00:01.523464][f=-000001] [Path] TK CPathManager::InitStatic: 2 threads available
+[t=00:00:01.527277][f=-000001] [IPathManager::GetInstance] using HAPFS
+[t=00:00:01.527300][f=-000001] [LoadScreen::SetLoadMessage] text="Initializing Map Features"
+[t=00:00:01.537558][f=-000001] [LoadScreen::SetLoadMessage] text="Loading Models"
+[t=00:00:01.570819][f=-000001] [LoadScreen::SetLoadMessage] text="Creating ShadowHandler"
+[t=00:00:01.605633][f=-000001] [LoadScreen::SetLoadMessage] text="Creating InfoTextureHandler"
+[t=00:00:01.638860][f=-000001] InfoTexture: shaders
+[t=00:00:01.638883][f=-000001] [LoadScreen::SetLoadMessage] text="Creating GroundDrawer"
+[t=00:00:01.670843][f=-000001] [LoadScreen::SetLoadMessage] text="Loading Map Tiles"
+[t=00:00:01.704161][f=-000001] [LoadScreen::SetLoadMessage] text="Loading Square Textures"
+[t=00:00:01.748912][f=-000001] Switching to ROAM Mesh Rendering
+[t=00:00:01.748943][f=-000001] [TriNodePool::Resize] to 2097152
+[t=00:00:01.774072][f=-000001] [TriNodePool::InitPools] newPoolSize=2097152 PoolSize=2097152 (shadowPass=0)
+[t=00:00:01.774097][f=-000001] [TriNodePool::Resize] to 2097152
+[t=00:00:01.799160][f=-000001] [TriNodePool::InitPools] newPoolSize=2097152 PoolSize=2097152 (shadowPass=1)
+[t=00:00:01.811247][f=-000001] [LoadScreen::SetLoadMessage] text="Creating GrassDrawer"
+[t=00:00:01.936591][f=-000001] CTextureRenderAtlas::CalculateAtlas() atlas=Decals atlasFinalized=1
+[t=00:00:01.938337][f=-000001] Loaded DecalsDrawer: standard
+[t=00:00:01.938356][f=-000001] [LoadScreen::SetLoadMessage] text="Creating ProjectileDrawer & UnitDrawer"
+[t=00:00:01.971952][f=-000001] [LoadScreen::SetLoadMessage] text="Creating Projectile Textures"
+[t=00:00:02.058124][f=-000001] [LoadScreen::SetLoadMessage] text="Creating Water"
+[t=00:00:02.094111][f=-000001] [LoadScreen::SetLoadMessage] text="Finalizing Models"
+[t=00:00:02.126515][f=-000001] [Game::Load][4] globalQuit=0 forcedQuit=0
+[t=00:00:02.146632][f=-000001] [~ScopedOnceTimer][Game::LoadInterface (Console)] 0ms
+[t=00:00:02.147050][f=-000001] [RmlUi::Initialize] Beginning RmlUi Initialization
+[t=00:00:02.148294][f=-000001] [RmlUi] Loaded font face 'FreeSans' [bold] from 'fonts/FreeSansBold.otf'.
+[t=00:00:02.148306][f=-000001] [RmlUi] SVG plugin initialised.
+[t=00:00:02.148309][f=-000001] [RmlUi] SVG plugin initialised.
+[t=00:00:02.148312][f=-000001] [Game::Load][5] globalQuit=0 forcedQuit=0
+[t=00:00:02.148320][f=-000001] [LoadScreen::SetLoadMessage] text="[LoadFinalize] finalizing PFS"
+[t=00:00:02.161803][f=-000001] [Path] [PathEstimator::CalcHash][Init] BLOCK_SIZE=16
+[t=00:00:02.161823][f=-000001] [Path] [PathEstimator::CalcHash][Init] PATHESTIMATOR_VERSION=109
+[t=00:00:02.161837][f=-000001] [Path] [PathEstimator::CalcHash][Init] heightMapChecksum=a5217193
+[t=00:00:02.161839][f=-000001] [Path] [PathEstimator::CalcHash][Init] typeMapChecksum=1fca359e
+[t=00:00:02.161841][f=-000001] [Path] [PathEstimator::CalcHash][Init] moveDefChecksum=e021988f
+[t=00:00:02.161843][f=-000001] [Path] [PathEstimator::CalcHash][Init] blockMapChecksum=29a
+[t=00:00:02.161845][f=-000001] [Path] [PathEstimator::CalcHash][Init] estimatorHashCode=a50d42d7
+[t=00:00:02.164587][f=-000001] [Path] [PathEstimator::CalcHash][Init] BLOCK_SIZE=32
+[t=00:00:02.164602][f=-000001] [Path] [PathEstimator::CalcHash][Init] PATHESTIMATOR_VERSION=109
+[t=00:00:02.164604][f=-000001] [Path] [PathEstimator::CalcHash][Init] heightMapChecksum=a5217193
+[t=00:00:02.164606][f=-000001] [Path] [PathEstimator::CalcHash][Init] typeMapChecksum=1fca359e
+[t=00:00:02.164608][f=-000001] [Path] [PathEstimator::CalcHash][Init] moveDefChecksum=e021988f
+[t=00:00:02.164610][f=-000001] [Path] [PathEstimator::CalcHash][Init] blockMapChecksum=29a
+[t=00:00:02.164615][f=-000001] [Path] [PathEstimator::CalcHash][Init] estimatorHashCode=a50d42e7
+[t=00:00:02.164617][f=-000001] [Path] TK CPathManager::Finalize PathFinder 0x0x79b13c751800 has BLOCKSIZE 1
+[t=00:00:02.168085][f=-000001] [Path] [PathEstimator::CalcHash][Init] BLOCK_SIZE=16
+[t=00:00:02.168098][f=-000001] [Path] [PathEstimator::CalcHash][Init] PATHESTIMATOR_VERSION=109
+[t=00:00:02.168100][f=-000001] [Path] [PathEstimator::CalcHash][Init] heightMapChecksum=a5217193
+[t=00:00:02.168102][f=-000001] [Path] [PathEstimator::CalcHash][Init] typeMapChecksum=1fca359e
+[t=00:00:02.168105][f=-000001] [Path] [PathEstimator::CalcHash][Init] moveDefChecksum=e021988f
+[t=00:00:02.168107][f=-000001] [Path] [PathEstimator::CalcHash][Init] blockMapChecksum=29a
+[t=00:00:02.168109][f=-000001] [Path] [PathEstimator::CalcHash][Init] estimatorHashCode=a50d42d7
+[t=00:00:02.170775][f=-000001] [Path] [PathEstimator::CalcHash][Init] BLOCK_SIZE=32
+[t=00:00:02.170789][f=-000001] [Path] [PathEstimator::CalcHash][Init] PATHESTIMATOR_VERSION=109
+[t=00:00:02.170792][f=-000001] [Path] [PathEstimator::CalcHash][Init] heightMapChecksum=a5217193
+[t=00:00:02.170793][f=-000001] [Path] [PathEstimator::CalcHash][Init] typeMapChecksum=1fca359e
+[t=00:00:02.170796][f=-000001] [Path] [PathEstimator::CalcHash][Init] moveDefChecksum=e021988f
+[t=00:00:02.170798][f=-000001] [Path] [PathEstimator::CalcHash][Init] blockMapChecksum=29a
+[t=00:00:02.170799][f=-000001] [Path] [PathEstimator::CalcHash][Init] estimatorHashCode=a50d42e7
+[t=00:00:02.170803][f=-000001] [Path] TK CPathManager::Finalize PathFinder 0x0x79b13c9119d0 has BLOCKSIZE 1
+[t=00:00:02.172208][f=-000001] [Path] [PathingState::CalcHash][Init] BLOCK_SIZE=16
+[t=00:00:02.172217][f=-000001] [Path] [PathingState::CalcHash][Init] PATHESTIMATOR_VERSION=109
+[t=00:00:02.172219][f=-000001] [Path] [PathingState::CalcHash][Init] heightMapChecksum=a5217193
+[t=00:00:02.172222][f=-000001] [Path] [PathingState::CalcHash][Init] typeMapChecksum=1fca359e
+[t=00:00:02.172224][f=-000001] [Path] [PathingState::CalcHash][Init] moveDefChecksum=e021988f
+[t=00:00:02.172226][f=-000001] [Path] [PathingState::CalcHash][Init] estimatorHashCode=a50d403d
+[t=00:00:02.172258][f=-000001] [Path] [PathEstimator::ReadFile] hash=a50d403d file="cache/paths/Region View Fixture 1.pe-a50d403d.zip" (exists=0)
+[t=00:00:02.172269][f=-000001] [LoadScreen::SetLoadMessage] text="[InitEstimator] creating PE16 cache with 2 PF threads"
+[t=00:00:02.221897][f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 847 of 1280 blocks"
+[t=00:00:02.225081][f=-000001] [LoadScreen::SetLoadMessage] text="[InitEstimator] writing PE16 cache-file pe-a50d403d"
+[t=00:00:02.258504][f=-000001] [Path] [PathEstimator::WriteFile] hash=a50d403d file="cache/paths/Region View Fixture 1.pe-a50d403d.zip" (exists=0)
+[t=00:00:02.258635][f=-000001] [~CBufferedArchive][name=/home/gajop/projects/spring-projects/portal-publication-20261020/evidence/bug-screenshots/final/growth-before/write/cache/paths/Region View Fixture 1.pe-a50d403d.zip] 0 bytes cached in 0 files, 0 bytes cached in 0 files
+[t=00:00:02.258646][f=-000001] [LoadScreen::SetLoadMessage] text="[InitEstimator] written PE16 cache-file pe-a50d403d"
+[t=00:00:02.291758][f=-000001] Path cache (40, 32) initialized.
+[t=00:00:02.291794][f=-000001] Path cache (40, 32) initialized.
+[t=00:00:02.293174][f=-000001] [Path] [PathingState::CalcHash][Init] BLOCK_SIZE=32
+[t=00:00:02.293182][f=-000001] [Path] [PathingState::CalcHash][Init] PATHESTIMATOR_VERSION=109
+[t=00:00:02.293184][f=-000001] [Path] [PathingState::CalcHash][Init] heightMapChecksum=a5217193
+[t=00:00:02.293187][f=-000001] [Path] [PathingState::CalcHash][Init] typeMapChecksum=1fca359e
+[t=00:00:02.293189][f=-000001] [Path] [PathingState::CalcHash][Init] moveDefChecksum=e021988f
+[t=00:00:02.293191][f=-000001] [Path] [PathingState::CalcHash][Init] estimatorHashCode=a50d404d
+[t=00:00:02.293235][f=-000001] [Path] [PathEstimator::ReadFile] hash=a50d404d file="cache/paths/Region View Fixture 1.pe2-a50d404d.zip" (exists=0)
+[t=00:00:02.293245][f=-000001] [LoadScreen::SetLoadMessage] text="[InitEstimator] creating PE32 cache with 2 PF threads"
+[t=00:00:02.348151][f=-000001] [LoadScreen::SetLoadMessage] text="[InitEstimator] writing PE32 cache-file pe2-a50d404d"
+[t=00:00:02.358424][f=-000001] [Path] [PathEstimator::WriteFile] hash=a50d404d file="cache/paths/Region View Fixture 1.pe2-a50d404d.zip" (exists=0)
+[t=00:00:02.358541][f=-000001] [~CBufferedArchive][name=/home/gajop/projects/spring-projects/portal-publication-20261020/evidence/bug-screenshots/final/growth-before/write/cache/paths/Region View Fixture 1.pe2-a50d404d.zip] 0 bytes cached in 0 files, 0 bytes cached in 0 files
+[t=00:00:02.358550][f=-000001] [LoadScreen::SetLoadMessage] text="[InitEstimator] written PE32 cache-file pe2-a50d404d"
+[t=00:00:02.391761][f=-000001] Path cache (20, 16) initialized.
+[t=00:00:02.391795][f=-000001] Path cache (20, 16) initialized.
+[t=00:00:02.391810][f=-000001] [LoadScreen::SetLoadMessage] text="[LoadFinalize] finalized PFS (233ms, checksum 9f07c26a)"
+[t=00:00:02.425087][f=-000001] [Game::Load][6] globalQuit=0 forcedQuit=0
+[t=00:00:02.425108][f=-000001] [Game::LoadLua] Lua developer mode disabled
+[t=00:00:02.425116][f=-000001] [LoadScreen::SetLoadMessage] text="Loading LuaRules"
+[t=00:00:02.458923][f=-000001] [CAS::GASCB] Archive file="bug_map.sdd" cs="8cb653340225ca120e3f55b7eb281900c8db5e053da5cd254669c5e51b29082b42b0c5b2996478bea748b9346e96a087d7cc996fdf3ba841064d909d7c573165"
+[t=00:00:02.458957][f=-000001] [CAS::GASCB] Archive file="maphelper.sdz" cs="6ecfd8e47b2c0bde27517e92bd171d1d036e0482cbfc929a1925b5239e4d5947ed335df18ba4775b16843a9affe42b5fcd2aad9957bacb63a48ae005c799524e"
+[t=00:00:02.458986][f=-000001] [CAS::GASCB] Archive file="bug_game.sdd" cs="a220a7fb6afed2139081f7823fee24670f0b563f694980fe0f916d873a1c5cc8f3b74fae2ea3f4a8df5790879b3e78f877ebf12dcfc3fe9456951225076a0598"
+[t=00:00:02.458993][f=-000001] [CAS::GASCB] Archive file="cursors.sdz" cs="f97ffe671edbf35658b34557f6f3bcdaf450da384f3f9463dc2b52f4d02a6ea71d6622764d844ca167dd02c71d2a3df52d57cab595da0b584e180ab1bd9929f6"
+[t=00:00:02.459001][f=-000001] [CAS::GASCB] Archive file="springcontent.sdz" cs="de60527c7c860677f3e5f2221cccfa210f0521c6813279b03ee9521dd0ed84dc26b80907649662b806277ba5b638e01d8bf31339434bc8b8ef9d8beab9f72a34"
+[t=00:00:02.459008][f=-000001] [CAS::GASCB] Archive file="bitmaps.sdz" cs="13e1d0e6c3383afef7cda84eff1342271b1c82d13c66b376918ee61a25f77d5c662f6160ec74a121d59dbd8f29d9f10a00ab316cd1b3204a8be2c958c84a38eb"
+[t=00:00:02.461088][f=-000001] [~ScopedOnceTimer][creg::AutoRegisterCFunctions(LuaRules)] 2ms
+[t=00:00:02.464720][f=-000001] Loaded SYNCED gadget:  Flame bounds regression  <repro.lua>
+[t=00:00:02.465032][f=-000001] Loaded SYNCED gadget:  Lua unit script framework  <unit_script.lua>
+[t=00:00:02.465886][f=-000001] [CAS::GASCB] Archive file="bug_map.sdd" cs="8cb653340225ca120e3f55b7eb281900c8db5e053da5cd254669c5e51b29082b42b0c5b2996478bea748b9346e96a087d7cc996fdf3ba841064d909d7c573165"
+[t=00:00:02.465907][f=-000001] [CAS::GASCB] Archive file="maphelper.sdz" cs="6ecfd8e47b2c0bde27517e92bd171d1d036e0482cbfc929a1925b5239e4d5947ed335df18ba4775b16843a9affe42b5fcd2aad9957bacb63a48ae005c799524e"
+[t=00:00:02.465946][f=-000001] [CAS::GASCB] Archive file="bug_game.sdd" cs="a220a7fb6afed2139081f7823fee24670f0b563f694980fe0f916d873a1c5cc8f3b74fae2ea3f4a8df5790879b3e78f877ebf12dcfc3fe9456951225076a0598"
+[t=00:00:02.465955][f=-000001] [CAS::GASCB] Archive file="cursors.sdz" cs="f97ffe671edbf35658b34557f6f3bcdaf450da384f3f9463dc2b52f4d02a6ea71d6622764d844ca167dd02c71d2a3df52d57cab595da0b584e180ab1bd9929f6"
+[t=00:00:02.465964][f=-000001] [CAS::GASCB] Archive file="springcontent.sdz" cs="de60527c7c860677f3e5f2221cccfa210f0521c6813279b03ee9521dd0ed84dc26b80907649662b806277ba5b638e01d8bf31339434bc8b8ef9d8beab9f72a34"
+[t=00:00:02.465974][f=-000001] [CAS::GASCB] Archive file="bitmaps.sdz" cs="13e1d0e6c3383afef7cda84eff1342271b1c82d13c66b376918ee61a25f77d5c662f6160ec74a121d59dbd8f29d9f10a00ab316cd1b3204a8be2c958c84a38eb"
+[t=00:00:02.468889][f=-000001] Loaded UNSYNCED gadget:  Flame bounds regression  <repro.lua>
+[t=00:00:02.469012][f=-000001] Loaded UNSYNCED gadget:  Lua unit script framework  <unit_script.lua>
+[t=00:00:02.469551][f=-000001] [LoadScreen::SetLoadMessage] text="Loading LuaGaia"
+[t=00:00:02.491795][f=-000001] [LoadScreen::SetLoadMessage] text="Loading LuaUI"
+[t=00:00:02.525182][f=-000001] LuaUI Entry Point: "LuaUI/main.lua"
+[t=00:00:02.525198][f=-000001] LuaSocket Support: enabled
+[t=00:00:02.526125][f=-000001] [CAS::GASCB] Archive file="bug_map.sdd" cs="8cb653340225ca120e3f55b7eb281900c8db5e053da5cd254669c5e51b29082b42b0c5b2996478bea748b9346e96a087d7cc996fdf3ba841064d909d7c573165"
+[t=00:00:02.526145][f=-000001] [CAS::GASCB] Archive file="maphelper.sdz" cs="6ecfd8e47b2c0bde27517e92bd171d1d036e0482cbfc929a1925b5239e4d5947ed335df18ba4775b16843a9affe42b5fcd2aad9957bacb63a48ae005c799524e"
+[t=00:00:02.526169][f=-000001] [CAS::GASCB] Archive file="bug_game.sdd" cs="a220a7fb6afed2139081f7823fee24670f0b563f694980fe0f916d873a1c5cc8f3b74fae2ea3f4a8df5790879b3e78f877ebf12dcfc3fe9456951225076a0598"
+[t=00:00:02.526175][f=-000001] [CAS::GASCB] Archive file="cursors.sdz" cs="f97ffe671edbf35658b34557f6f3bcdaf450da384f3f9463dc2b52f4d02a6ea71d6622764d844ca167dd02c71d2a3df52d57cab595da0b584e180ab1bd9929f6"
+[t=00:00:02.526183][f=-000001] [CAS::GASCB] Archive file="springcontent.sdz" cs="de60527c7c860677f3e5f2221cccfa210f0521c6813279b03ee9521dd0ed84dc26b80907649662b806277ba5b638e01d8bf31339434bc8b8ef9d8beab9f72a34"
+[t=00:00:02.526189][f=-000001] [CAS::GASCB] Archive file="bitmaps.sdz" cs="13e1d0e6c3383afef7cda84eff1342271b1c82d13c66b376918ee61a25f77d5c662f6160ec74a121d59dbd8f29d9f10a00ab316cd1b3204a8be2c958c84a38eb"
+[t=00:00:02.526229][f=-000001] [RmlGui::InitializeLua] Initializing RmlUi Lua Bindings
+[t=00:00:02.527202][f=-000001] GROWTH_CAPTURE_NO_REGION_APIS
+[t=00:00:02.527519][f=-000001] [Game::Load][7] globalQuit=0 forcedQuit=0
+[t=00:00:02.528200][f=-000001] [Game::Load][8] globalQuit=0 forcedQuit=0
+[t=00:00:02.528985][f=-000001] [LuaMemPool::LogStats][handle=LuaIntro (unsynced)] index=1 numAllocs{int+, int-, ext, int_p}={12873, 0, 756, 94.5} allocedSize{int+, int-, ext}={1031398, 0, 1213784}, avgAllocTime{int+, int-, ext}={0.0000, 0.0000, 0.0000}, cumAllocTime={int+, int-, ext}={0, 0, 0}
+[t=00:00:02.615602][f=-000001] GameID: a673d76a00ea238b40c4ac9aa20c7932
+[t=00:00:02.615623][f=-000001] Connection attempt from Repro
+[t=00:00:02.615626][f=-000001]  -> Version: 2026.09.01-30-gbf25266 master [Linux 64-bit (native)]
+[t=00:00:02.615629][f=-000001]  -> Connection established (given id 0)
+[t=00:00:02.615640][f=-000001] [Game::ClientReadNet][LOGMSG] sender="Repro" string="[PreGame::GameDataReceived][map-checksums]
+	server=e2798bd07909c1cc296e2b25563f041dcbb55a87f6595fbf5f4c70c68564516caf83984312c00fe5b1cc83ae91728bd81ae634f688816322a2c77098bbce632b
+	client=e2798bd07909c1cc296e2b25563f041dcbb55a87f6595fbf5f4c70c68564516caf83984312c00fe5b1cc83ae91728bd81ae634f688816322a2c77098bbce632b"
+[t=00:00:02.615644][f=-000001] [Game::ClientReadNet][LOGMSG] sender="Repro" string="[PreGame::GameDataReceived][mod-checksums]
+	server=96dedb06cb9b1dcccc1ae8b92ac220bbef422f109b22de5b7cdd8b741f2ccbefae4605bfebc57b906b30546a19f5541ad1e419cdc8e11d3e7cf25a26cb4e3eb1
+	client=96dedb06cb9b1dcccc1ae8b92ac220bbef422f109b22de5b7cdd8b741f2ccbefae4605bfebc57b906b30546a19f5541ad1e419cdc8e11d3e7cf25a26cb4e3eb1"
+[t=00:00:02.615660][f=-000001] [Game::ClientReadNet][LOGMSG] sender="Repro" string="[PE::CalcChecksum][BLK_SIZE=16][SHA_DATA=cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e]"
+[t=00:00:02.615663][f=-000001] [Game::ClientReadNet][LOGMSG] sender="Repro" string="[PE::CalcChecksum][BLK_SIZE=32][SHA_DATA=cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e]"
+[t=00:00:02.615666][f=-000001] [Game::ClientReadNet][LOGMSG] sender="Repro" string="[Game::Load][lua{Rules,Gaia}={0x79b21a389800,(nil)}][locale="C"]"
+[t=00:00:02.615669][f=-000001] Player Repro finished loading and is now ingame
+[t=00:00:03.816345][f=0000030] Switching to Overhead (TA) style camera
+[t=00:00:04.349661][f=0000043] GROWTH_SEND grow 2505.1340 672.3523 1793.4420
+[t=00:00:04.382352][f=0000043] GROWTH_SPAWN_FRAME 43
+[t=00:00:06.477853][f=0000088] GROWTH_BOUNDS_CASE early=0 late=0 early_age=2 late_age=45
+[t=00:00:06.477881][f=0000088] GROWTH_BOUNDS_FAIL
+[t=00:00:06.477889][f=0000088] [QuitAction] user exited to system
+[t=00:00:06.511472][f=0000088] [SpringApp::Kill][1] fromRun=1
+[t=00:00:06.511496][f=0000088] [ThreadPool::SetThreadCount][1] wanted=0 current=2 maximum=20 (init=0)
+[t=00:00:06.541640][f=0000088] 	[async=0] threads=2 tasks=152 {sum,avg}{exec,wait}time={{92.998, 0.612}, {437.123, 2.876}}ms
+[t=00:00:06.541660][f=0000088] 		thread=1 tasks=152 {sum,min,max,avg}{exec,wait}time={{92.998, 0.000, 44.295, 0.612}, {437.123, 0.000, 30.073, 2.876}}ms
+[t=00:00:06.541664][f=0000088] 	[async=1] threads=2 tasks=17 {sum,avg}{exec,wait}time={{10.970, 0.645}, {386.300, 22.724}}ms
+[t=00:00:06.541670][f=0000088] 		thread=1 tasks=17 {sum,min,max,avg}{exec,wait}time={{10.970, 0.000, 10.322, 0.645}, {386.300, 12.516, 23.462, 22.724}}ms
+[t=00:00:06.541673][f=0000088] [ThreadPool::SetThreadCount][2] workers=0
+[t=00:00:06.541677][f=0000088] [SpringApp::Kill][2]
+[t=00:00:06.541735][f=0000088] [Game::KillLua][0] dtor=0 loadscreen=(nil)
+[t=00:00:06.541740][f=0000088] [Game::KillLua][1] dtor=0 luaUI=0x79b21a7c9400
+[t=00:00:06.554246][f=0000088] [LuaMemPool::LogStats][handle=LuaUI (unsynced)] index=18446744073709551615 numAllocs{int+, int-, ext, int_p}={351343, 0, 2449, 99.3} allocedSize{int+, int-, ext}={22671162, 0, 5205418}, avgAllocTime{int+, int-, ext}={0.0000, 0.0000, 0.0000}, cumAllocTime={int+, int-, ext}={0, 0, 0}
+[t=00:00:06.554298][f=0000088] [Game::KillLua][2] dtor=0 luaGaia=(nil)
+[t=00:00:06.554302][f=0000088] [Game::KillLua][3] dtor=0 luaRules=0x79b21a389800
+[t=00:00:06.554934][f=0000088] [LuaMemPool::LogStats][handle=LuaRules (unsynced)] index=18446744073709551615 numAllocs{int+, int-, ext, int_p}={1, 0, 0, 100.0} allocedSize{int+, int-, ext}={51, 0, 0}, avgAllocTime{int+, int-, ext}={0.0000, 0.0000, 0.0000}, cumAllocTime={int+, int-, ext}={0, 0, 0}
+[t=00:00:06.554972][f=0000088] [LuaMemPool::LogStats][handle=LuaRules (synced)] index=18446744073709551615 numAllocs{int+, int-, ext, int_p}={0, 0, 0, 0.0} allocedSize{int+, int-, ext}={0, 0, 0}, avgAllocTime{int+, int-, ext}={0.0000, 0.0000, 0.0000}, cumAllocTime={int+, int-, ext}={0, 0, 0}
+[t=00:00:06.554991][f=0000088] [Game::KillLua][4] dtor=0
+[t=00:00:06.554997][f=0000088] [Game::KillLua][5] dtor=0
+[t=00:00:06.555134][f=0000088] [Game::~CGame][1]
+[t=00:00:06.555290][f=0000088] [Game::KillLua][0] dtor=1 loadscreen=(nil)
+[t=00:00:06.555298][f=0000088] [Game::KillLua][1] dtor=1 luaUI=(nil)
+[t=00:00:06.555301][f=0000088] [Game::KillLua][2] dtor=1 luaGaia=(nil)
+[t=00:00:06.555304][f=0000088] [Game::KillLua][3] dtor=1 luaRules=(nil)
+[t=00:00:06.555308][f=0000088] [Game::KillLua][4] dtor=1
+[t=00:00:06.555312][f=0000088] [Game::KillLua][5] dtor=1
+[t=00:00:06.555339][f=0000088] [Game::KillMisc][1]
+[t=00:00:06.555343][f=0000088] [Game::KillMisc][2]
+[t=00:00:06.555347][f=0000088] [Game::KillMisc][3]
+[t=00:00:06.555419][f=0000088] [Game::KillRendering][1]
+[t=00:00:06.558048][f=0000088] [3DOParser::Kill] allocated 1 pieces
+[t=00:00:06.558062][f=0000088] [S3OParser::Kill] allocated 4 pieces
+[t=00:00:06.558067][f=0000088] [AssParser::Kill] allocated 0 pieces
+[t=00:00:06.567672][f=0000088] [Game::KillInterface][1]
+[t=00:00:06.567746][f=0000088] [Game::KillInterface][2]
+[t=00:00:06.567846][f=0000088] [Game::KillSimulation][1]
+[t=00:00:06.568011][f=0000088] [Game::KillSimulation][2]
+[t=00:00:06.583770][f=0000088] [CCollisionHandler] dis-/continuous tests: 0/0
+[t=00:00:06.583802][f=0000088] [Game::KillSimulation][3]
+[t=00:00:06.583814][f=0000088] [~CPathCache(20x16)] cacheHits=0 hitPercentage=0% numHashColls=0 maxCacheSize=0
+[t=00:00:06.583821][f=0000088] [~CPathCache(20x16)] cacheHits=0 hitPercentage=0% numHashColls=0 maxCacheSize=0
+[t=00:00:06.583826][f=0000088] [~CPathCache(40x32)] cacheHits=0 hitPercentage=0% numHashColls=0 maxCacheSize=0
+[t=00:00:06.583831][f=0000088] [~CPathCache(40x32)] cacheHits=0 hitPercentage=0% numHashColls=0 maxCacheSize=0
+[t=00:00:06.584087][f=0000088] [~CRectangleOverlapHandler] 0% overlap reduction
+[t=00:00:06.586156][f=0000088] [LosHandler::Kill] raycast instance cache-{hits,misses}={1,2}; shared=0%; cached=33%
+[t=00:00:06.586295][f=0000088] [Game::KillSimulation][4]
+[t=00:00:06.650165][f=0000088] [CommonDefHandler::KillStatic] 4 sound-set data items added
+[t=00:00:06.650209][f=0000088] [Game::~CGame][2]
+[t=00:00:06.650213][f=0000088] [Game::~CGame][3]
+[t=00:00:06.680171][f=0000088] [SpringApp::Kill][3]
+[t=00:00:06.680191][f=0000088] [NetProto::~CNetProtocol] [LocalConnection::Statistics]
+	2505 bytes sent  
+	2192 bytes recv'd
+
+[t=00:00:06.680521][f=0000088] Kill: client disconnecting...
+[t=00:00:06.680565][f=0000088] [GameServer] UpdateLoop: thread affinity fffff
+[t=00:00:06.680672][f=0000088] CloseConnection: client connection closed
+[t=00:00:06.680683][f=0000088] [SpringApp::Kill][4] font=0x79b1da5d5040
+[t=00:00:06.681096][f=0000088] [SpringApp::Kill][5]
+[t=00:00:06.681255][f=0000088] [SpringApp::Kill][6]
+[t=00:00:06.681260] [SpringApp::Kill][7]
+[t=00:00:06.681270] [RenderBuffer::KillStatic] Type = VA_TYPE_0 max size/init. capacity/curr. capacity: VBO = {0, 65536, 65536}, EBO = {0, 131072, 131072}
+[t=00:00:06.681272] [RenderBuffer::KillStatic] Type = VA_TYPE_C max size/init. capacity/curr. capacity: VBO = {0, 1048576, 1048576}, EBO = {0, 2097152, 2097152}
+[t=00:00:06.681274] [RenderBuffer::KillStatic] Type = VA_TYPE_N max size/init. capacity/curr. capacity: VBO = {0, 1024, 1024}, EBO = {0, 2048, 2048}
+[t=00:00:06.681277] [RenderBuffer::KillStatic] Type = VA_TYPE_T max size/init. capacity/curr. capacity: VBO = {0, 1048576, 1048576}, EBO = {0, 2097152, 2097152}
+[t=00:00:06.681279] [RenderBuffer::KillStatic] Type = VA_TYPE_T4 max size/init. capacity/curr. capacity: VBO = {0, 65536, 65536}, EBO = {0, 262144, 262144}
+[t=00:00:06.681280] [RenderBuffer::KillStatic] Type = VA_TYPE_TN max size/init. capacity/curr. capacity: VBO = {0, 65536, 65536}, EBO = {0, 131072, 131072}
+[t=00:00:06.681282] [RenderBuffer::KillStatic] Type = VA_TYPE_TC max size/init. capacity/curr. capacity: VBO = {4, 1048576, 1048576}, EBO = {6, 2097152, 2097152}
+[t=00:00:06.681284] [RenderBuffer::KillStatic] Type = VA_TYPE_TC3 max size/init. capacity/curr. capacity: VBO = {0, 1024, 1024}, EBO = {0, 2048, 2048}
+[t=00:00:06.681286] [RenderBuffer::KillStatic] Type = VA_TYPE_PROJ max size/init. capacity/curr. capacity: VBO = {0, 1048576, 1048576}, EBO = {0, 2097152, 2097152}
+[t=00:00:06.681288] [RenderBuffer::KillStatic] Type = VA_TYPE_TNT max size/init. capacity/curr. capacity: VBO = {0, 0, 0}, EBO = {0, 0, 0}
+[t=00:00:06.681290] [RenderBuffer::KillStatic] Type = VA_TYPE_2D0 max size/init. capacity/curr. capacity: VBO = {8, 65536, 65536}, EBO = {12, 131072, 131072}
+[t=00:00:06.681292] [RenderBuffer::KillStatic] Type = VA_TYPE_2DC max size/init. capacity/curr. capacity: VBO = {4, 65536, 65536}, EBO = {8, 131072, 131072}
+[t=00:00:06.681303] [RenderBuffer::KillStatic] Type = VA_TYPE_2DT max size/init. capacity/curr. capacity: VBO = {0, 1048576, 1048576}, EBO = {0, 2097152, 2097152}
+[t=00:00:06.681305] [RenderBuffer::KillStatic] Type = VA_TYPE_2DTC max size/init. capacity/curr. capacity: VBO = {4, 65536, 65536}, EBO = {6, 131072, 131072}
+[t=00:00:06.681307] [RenderBuffer::KillStatic] Type = VA_TYPE_2DTC3 max size/init. capacity/curr. capacity: VBO = {0, 1024, 1024}, EBO = {0, 2048, 2048}
+[t=00:00:06.818265] [LuaSocket] [~CLuaSocketRestrictions] dumping luasocket rules:
+[t=00:00:06.818286] [LuaSocket] TCP_CONNECT ALLOW * -1
+[t=00:00:06.818288] [LuaSocket] TCP_LISTEN  ALLOW * -1
+[t=00:00:06.818290] [LuaSocket] UDP_LISTEN  ALLOW * -1
+[t=00:00:06.818325] [VFS] [SpringVFS::DeleteArchives<this=0x79b20bf50080>]
+[t=00:00:06.818328] [VFS] [SpringVFS::DeleteArchives<this=0x79b20bf50080>(section=0)] #archives[section]=1 #files[section]=13
+[t=00:00:06.818333] [VFS] 	archive=/tmp/engine-bug-repro-x94x54uz/games/bug_game.sdd (0x79b20bee0140)
+[t=00:00:06.818339] [VFS] [SpringVFS::DeleteArchives<this=0x79b20bf50080>(section=1)] #archives[section]=1 #files[section]=3
+[t=00:00:06.818341] [VFS] 	archive=/tmp/engine-bug-repro-x94x54uz/maps/bug_map.sdd (0x79b20bee05c0)
+[t=00:00:06.818355] [VFS] [SpringVFS::DeleteArchives<this=0x79b20bf50080>(section=2)] #archives[section]=4 #files[section]=452
+[t=00:00:06.818357] [VFS] 	archive=/tmp/engine-bug-repro-x94x54uz/base/springcontent.sdz (0x79b1dbe40400)
+[t=00:00:06.818371] [~CBufferedArchive][name=/tmp/engine-bug-repro-x94x54uz/base/springcontent.sdz] 166139 bytes cached in 27 files, 0 bytes cached in 175 files
+[t=00:00:06.818381] [VFS] 	archive=/tmp/engine-bug-repro-x94x54uz/base/cursors.sdz (0x79b1dbe405c0)
+[t=00:00:06.818388] [~CBufferedArchive][name=/tmp/engine-bug-repro-x94x54uz/base/cursors.sdz] 0 bytes cached in 0 files, 0 bytes cached in 111 files
+[t=00:00:06.818393] [VFS] 	archive=/tmp/engine-bug-repro-x94x54uz/base/spring/bitmaps.sdz (0x79b1dbe40cc0)
+[t=00:00:06.818400] [~CBufferedArchive][name=/tmp/engine-bug-repro-x94x54uz/base/spring/bitmaps.sdz] 5446 bytes cached in 1 files, 0 bytes cached in 132 files
+[t=00:00:06.818405] [VFS] 	archive=/tmp/engine-bug-repro-x94x54uz/base/maphelper.sdz (0x79b1dbe40b00)
+[t=00:00:06.818410] [~CBufferedArchive][name=/tmp/engine-bug-repro-x94x54uz/base/maphelper.sdz] 0 bytes cached in 0 files, 0 bytes cached in 0 files
+[t=00:00:06.818420] [VFS] [SpringVFS::DeleteArchives<this=0x79b20bf50080>(section=3)] #archives[section]=0 #files[section]=0
+[t=00:00:06.818422] [VFS] [SpringVFS::DeleteArchives<this=0x79b20bf50080>(section=4)] #archives[section]=0 #files[section]=132
+[t=00:00:06.818424] [VFS] [SpringVFS::DeleteArchives<this=0x79b20bf50080>(section=5)] #archives[section]=0 #files[section]=0
+[t=00:00:06.818426] [VFS] [SpringVFS::DeleteArchives<this=0x79b20bf50080>(section=6)] #archives[section]=0 #files[section]=0
+[t=00:00:06.818428] [VFS] [SpringVFS::DeleteArchives<this=0x79b20bf50080>(section=7)] #archives[section]=0 #files[section]=0
+[t=00:00:06.818430] [VFS] [SpringVFS::DeleteArchives<this=0x79b20bf50080>(section=8)] #archives[section]=0 #files[section]=0
+[t=00:00:06.818451] [SpringApp::Kill][8]
+[t=00:00:06.818454] [WatchDog::DeregisterThread] deregistering controls for thread [main]
+[t=00:00:06.818457] [WatchDog::Uninstall][1] hangDetectorThread=0x647f87c46290 (joinable=1)
+[t=00:00:06.818459] [WatchDog::Uninstall][2]
+[t=00:00:07.046106] [WatchDog::Uninstall][3]
+[t=00:00:07.046122] [SpringApp::Kill][9]

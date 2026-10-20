@@ -1,0 +1,54 @@
+[
+  {
+    "case": "flame",
+    "side": "before",
+    "result": "evidence/bug-screenshots/final/flame-before/result.json",
+    "cyan_pixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": "flame",
+    "side": "after",
+    "result": "evidence/bug-screenshots/final/flame-after/result.json",
+    "cyan_pixels": [
+      8447,
+      3817,
+      8340,
+      3599
+    ]
+  },
+  {
+    "case": "growth",
+    "side": "before",
+    "result": "evidence/bug-screenshots/final/growth-before/result.json",
+    "cyan_pixels": [
+      0,
+      0
+    ]
+  },
+  {
+    "case": "growth",
+    "side": "after",
+    "result": "evidence/bug-screenshots/final/growth-after/result.json",
+    "cyan_pixels": [
+      0,
+      1959
+    ]
+  },
+  {
+    "case": "layout",
+    "side": "before",
+    "result": "evidence/bug-screenshots/final/layout-before/result.json",
+    "cyan_pixels": []
+  },
+  {
+    "case": "layout",
+    "side": "after",
+    "result": "evidence/bug-screenshots/final/layout-after/result.json",
+    "cyan_pixels": []
+  }
+]
